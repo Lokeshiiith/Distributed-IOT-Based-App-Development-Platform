@@ -1,0 +1,13 @@
+2023-04-10 23:09:34,763 - [WARNING] - client_async.py:_conn_state_change:331 - Node coordinator-0 connection failed -- refreshing metadata
+2023-04-10 23:09:34,764 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-10 23:09:34,765 - [WARNING] - base.py:coordinator_dead:715 - Marking the coordinator dead (node coordinator-0) for group Monitoring: Node Disconnect20232023-04-10 23:09:34,766 - [ERROR] - conn.py:connect:418 - Connect attempt to <BrokerConnection node_id=0 host=localhost:9092 <connectin2023-04-10 23:09:34,766 - [WARNING] - base.py:coordinator_dead:715 - Marking the coordinator dead (node coordinator-0) for group Monitoring: Node Disconnected.
+2023-04-10 23:09:34,768 - [ERROR]2023-04-10 23:09:34,867 - [ERROR] - conn.py:connect:418 - Connect attempt to <BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2023-04-10 23:09:34,867 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connecti2023-04-10 23:09:34,970 - [ERROR]2023-04-10 23:09:35,119 - [ERROR] - conn.py:connect:418 - Connect attempt to <BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2023-04-10 23:09:35,120 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connecti2023-04-10 23:09:35,223 - [ERROR]2023-04-10 23:09:35,676 - [ERROR] - conn.py:connect:418 - Connect attempt to <BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2023-04-10 23:09:35,677 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-10 23:09:36,536 - [ERROR] - conn.py:connect:418 - Connect attempt to <BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2023-04-10 23:09:36,537 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+ - conn.py:connect:418 - Connect attempt to <BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2023-04-10 23:09:36,488 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-10 23:09:37,598 - [ERROR] - conn.py:connect:418 - Connect attempt to <BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 111. Disconnecting.
+2023-04-10 23:09:37,598 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata

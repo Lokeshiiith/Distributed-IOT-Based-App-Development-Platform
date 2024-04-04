@@ -1,0 +1,37 @@
+#NOTIFICATION SYSTEM -
+#BROADCASTING AND UNICASTING
+'''
+1. Sender have to generate a password from google for the script.
+2. Steps for generating are in given website 
+   https://support.google.com/mail/answer/185833?hl=en
+3. Generate app password by following the steps below:
+       Go to your google account.
+	 https://myaccount.google.com/security
+       Go to security.
+       Under " How you sign in to Google" Go to 2- step verification.
+       Under App passwords section, generate an 'App password' and use the password here.
+4. Function call
+	 send_mail(sender_email, sender_password, receiver_email, cc=None, bcc=None, sub="", body=""):
+	 sender_mail :{string} Mail of sender who wants to unicast or multicast.
+	 password :{string} Password of sender generated from above steps
+	 receicer_mail :{List of string} Either a list of emails or a single e-mail.
+	     List of email : Maintain a list comprising emails.
+				   receicer_email = ["xyz@gmail.com" , "pqw@gm.com"]
+	     Single email :  Just a string of email
+				   receicer_email = "xyz@gmail.com"
+	 cc :{List of string} Either a list of emails or a single e-mail.
+	     List of email : Maintain a list comprising emails.
+				   cc = ["xyz@gmail.com" , "pqw@gm.com"]
+	     Single email :  Just a string of email
+				   cc = "xyz@gmail.com"
+	 bcc :{List of string} Either a list of emails or a single e-mail.
+	     List of email : Maintain a list comprising emails.
+				   cc = ["xyz@gmail.com" , "pqw@gm.com"]
+	     Single email :  Just a string of email
+				   cc = "xyz@gmail.com"
+ 		
+    	 Sub :{string} (optional) : Regarding the what subject to choose.
+	 Body :{string} (optional) : Body for mail.
+'''
+   
+        
