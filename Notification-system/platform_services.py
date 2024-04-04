@@ -16,17 +16,17 @@ def send_whatsapp_notification(sender, to_number, message, account_sid, auth_tok
     print(f"WhatsApp notification sent to {to_number}, Message SID: {message.sid}")
 
 # If you wish to change the 'to_number', make sure you send 'join appearance-stove' to '+14155238886'
-to_number = '+917506636566'
-message = "The message is from Fault Tolerance module. There is a problem with node sid_vm!"
-senderName='Sanya Gandhi'
+# to_number = '+917506636566'
+# message = "The message is from Fault Tolerance module. There is a problem with node sid_vm!"
+# senderName='Sanya Gandhi'
 
-# Account has been already created. So, use the following
-account_sid = "ACef0a0280e62b5f9afeb8707d73b3053d"
-auth_token = "66ec1a3be77bfc9446a246839b4f7ac0"
+# # Account has been already created. So, use the following
+# account_sid = "ACef0a0280e62b5f9afeb8707d73b3053d"
+# auth_token = "66ec1a3be77bfc9446a246839b4f7ac0"
 
 
 # For testing purposes
-send_whatsapp_notification(senderName ,to_number, message, account_sid, auth_token)
+# send_whatsapp_notification(senderName ,to_number, message, account_sid, auth_token)
 
 #------------------------End code for WhatsApp-----------------
 

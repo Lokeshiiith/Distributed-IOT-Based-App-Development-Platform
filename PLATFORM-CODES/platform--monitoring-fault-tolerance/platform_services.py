@@ -4,7 +4,11 @@ import smtplib
 #--------------------Start code for WhatsApp----------------------------------------------------- 
 from twilio.rest import Client
 
-def send_whatsapp_notification(sender, to_number, message, account_sid = "ACef0a0280e62b5f9afeb8707d73b3053d", auth_token = "66ec1a3be77bfc9446a246839b4f7ac0"):
+# ----------------import from other files----------------
+from auth import account_sid
+from token import token
+
+def send_whatsapp_notification(sender, to_number, message, account_sid = account_sid, auth_token = token):
     client = Client(account_sid, auth_token)
     message=f'Hey there! \nYou have been contacted through IAS group 5.\nYou have received a message from {sender}. \nThe message is{message}'
     message = client.messages.create( 
