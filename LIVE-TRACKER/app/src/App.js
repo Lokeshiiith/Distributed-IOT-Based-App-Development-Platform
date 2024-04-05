@@ -21,7 +21,7 @@ function App() {
     }, 1000);
 
     const fetchLogs = () => {
-      fetch("http://localhost:5051/logs/health")
+      fetch("http://localhost:5050/logs/health")
         .then((res) => res.json())
         .then((res) => {
           setData(res);

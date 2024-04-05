@@ -45,14 +45,14 @@ router.get("/latest", async (req, res) => {
 });
 
 // Get a single post
-router.get("/:id", async (req, res) => {
-  let collection = await db.collection("posts");
-  let query = { _id: ObjectId(req.params.id) };
-  let result = await collection.findOne(query);
+// router.get("/:id", async (req, res) => {
+//   let collection = await db.collection("posts");
+//   let query = { _id: ObjectId(req.params.id) };
+//   let result = await collection.findOhttps://meet.google.com/ixx-jxxs-hamne(query);
 
-  if (!result) res.send("Not found").status(404);
-  else res.send(result).status(200);
-});
+//   if (!result) res.send("Not found").status(404);
+//   else res.send(result).status(200);
+// });
 
 // Add a new document to the collection
 router.post("/", async (req, res) => {
